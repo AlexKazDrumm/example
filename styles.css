@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2d42;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #20232a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #61dafb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header .logo {
+    width: 60px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    color: #61dafb;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #3a3f58;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.buy-button {
+    background: linear-gradient(45deg, #61dafb, #21a1f1);
+}
+
+.login-button {
+    background: linear-gradient(45deg, #61fb94, #09ac60);
+}
+
+.buy-button, .login-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.buy-button:hover {
+    background: linear-gradient(45deg, #21a1f1, #61dafb);
+}
+
+.login-button:hover {
+    background: linear-gradient(45deg, #09ac60, #61fb94);
+}
