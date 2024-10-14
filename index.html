@@ -1,110 +1,61 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS Skin Shop</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <img src="skins/logo.png" alt="SkinMaster Logo" class="logo">
-        <h1>Магазин Скинов для CS</h1>
-        <button class="login-button">Вход</button>
-    </header>
-    <div class="product-grid">
-        <!-- Начало карточки товара -->
-        <div class="product-card">
-            <img src="skins/Sport_Gloves_Vice_(Factory_New).png" alt="Sport Gloves | Vice (Factory_New)">
-            <h2>★ Sport Gloves | Vice (Factory New)</h2>
-            <p>Цена: ₸ 8 457 754.88</p>
-            <p>Float: 0.0668310970</p>
-            <p>Редкость: Extraordinary</p>
-            <p>Паттерн: 357</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/Souvenir_FAMAS_Teardown_(Battle-Scarred).png" alt="Souvenir FAMAS | Teardown (Battle-Scarred)">
-            <h2>Souvenir FAMAS | Teardown (Battle-Scarred)</h2>
-            <p>Цена: ₸ 10 632 606.14</p>
-            <p>Float: 0.5118266344</p>
-            <p>Редкость: Mil-Spec Grade</p>
-            <p>Паттерн: 530</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/StatTrak_Glock-18 Wasteland_Rebel_(Factory_New).png" alt="StatTrak™ Glock-18 | Wasteland Rebel (Factory New)">
-            <h2>StatTrak™ Glock-18 | Wasteland Rebel (Factory New)</h2>
-            <p>Цена: ₸ 19 868.47</p>
-            <p>Float: 0.0553225874</p>
-            <p>Редкость: Covert</p>
-            <p>Паттерн: 734</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/Butterfly_Knife_Gamma_Doppler_Emerald_(Factory_New).png" alt="★ Butterfly Knife | Gamma Doppler Emerald (Factory New)">
-            <h2>★ Butterfly Knife | Gamma Doppler Emerald (Factory New)</h2>
-            <p>Цена: ₸ 8 119 439.85</p>
-            <p>Float: 0.0276475381</p>
-            <p>Редкость: Covert</p>
-            <p>Паттерн: 382</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/StatTrak_M4A4_Howl_(Factory_New).png" alt="StatTrak™ M4A4 | Howl (Factory New)">
-            <h2>StatTrak™ M4A4 | Howl (Factory New)</h2>
-            <p>Цена: ₸ 9 665 522.28</p>
-            <p>Float: 0.0486592352</p>
-            <p>Редкость: Contraband</p>
-            <p>Паттерн: 853</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/Karambit_Case_Hardened_(Factory_New).png" alt="★ Karambit | Case Hardened (Factory New)">
-            <h2>★ Karambit | Case Hardened (Factory New)</h2>
-            <p>Цена: ₸ 12 017 222.77</p>
-            <p>Float: 0.0625767558</p>
-            <p>Редкость: Covert</p>
-            <p>Паттерн: 914</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/Souvenir_AWP_Dragon_Lore_(Battle-Scarred).webp" alt="Souvenir AWP | Dragon Lore (Battle-Scarred)">
-            <h2>Souvenir AWP | Dragon Lore (Battle-Scarred)</h2>
-            <p>Цена: ₸ 16 865 309.37</p>
-            <p>Float: 0.5523747801</p>
-            <p>Редкость: Covert</p>
-            <p>Паттерн: 484</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/AK-47_Vulcan_(Factory_New).png" alt="AK-47 | Vulcan (Factory New)">
-            <h2>AK-47 | Vulcan (Factory New)</h2>
-            <p>Цена: ₸ 444 003.13</p>
-            <p>Float: 0.0678566098</p>
-            <p>Редкость: Covert</p>
-            <p>Паттерн: 117</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/M9_Bayonet_Doppler_Sapphire_(Factory_New).png" alt="★ M9 Bayonet | Doppler Sapphire (Factory New)">
-            <h2>★ M9 Bayonet | Doppler Sapphire (Factory New)</h2>
-            <p>Цена: ₸ 6 041 253.49</p>
-            <p>Float: 0.0356234647</p>
-            <p>Редкость: Covert</p>
-            <p>Паттерн: 600</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <div class="product-card">
-            <img src="skins/AK-47_Redline_(Minimal_Wear).png" alt="AK-47 | Redline (Minimal Wear)">
-            <h2>AK-47 | Redline (Minimal Wear)</h2>
-            <p>Цена: ₸ 51 022.01</p>
-            <p>Float: 0.1254269033</p>
-            <p>Редкость: Classified</p>
-            <p>Паттерн: 174</p>
-            <button class="buy-button">Купить</button>
-        </div>
-        <!-- Добавьте остальные карточки здесь, заменив информацию -->
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Подключаем стили -->
+        <link rel="stylesheet" href="index.css">
+        <!-- Подключаем шрифты Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon_3.ico" type="image/x-icon">
+    </head>
+    <body>
+    <!-- Хедер -->
+    <div id="header-placeholder"></div>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+            <h1>Стихотворение А.С. Пушкина</h1>
+            <p>У <i>лукоморья</i> дуб зелёный;</p>
+            <p>Златая цепь на дубе том:</p>
+            <p>И днём и ночью кот <a href="https://jut.su/">учёный</a></p>
+            <p>Всё ходит по <b>цепи</b> кругом;</p>
+            <p>Идёт направо — песнь заводит,</p>
+            <p style="color: aqua;">Налево — сказку говорит.</p>
+            <p>Там <u>чудеса</u>: там леший бродит,</p>
+            <p>Русалка на ветвях сидит;</p>
+            <p>Там на неведомых дорожках</p>
+            <p><a href="contacts.html">Следы</a> невиданных зверей;</p>
+        </main>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <h1>Стихотворение А.С. Пушкина</h1>
+            <p>У <i>лукоморья</i> дуб зелёный;</p>
+            <p>Златая цепь на дубе том:</p>
+            <p>И днём и ночью кот учёный</p>
+            <p>Всё ходит по <b>цепи</b> кругом;</p>
+            <p>Идёт направо — песнь заводит,</p>
+            <p style="color: aqua;">Налево — сказку говорит.</p>
+            <p>Там <u>чудеса</u>: там леший бродит,</p>
+            <p>Русалка на ветвях сидит;</p>
+            <p>Там на неведомых дорожках</p>
+            <p>Следы невиданных зверей;</p>
+        </main>
+
+        <!-- Блок "О нас" -->
+        <section id="about-us">
+            <h2>О нас</h2>
+            <p>Это информация о нас.</p>
+        </section>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <p>&copy; 2023 Мой сайт</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
