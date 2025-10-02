@@ -8,6 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 });
 
+const textMessage = 'Пушкин'
+
+function sendMessage() {
+    const p = document.getElementById('pushkin');
+    p.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Автора зовут ' + textMessage)
+    })
+}
+
 function initializeHeader() {
     const navLinkNav = document.getElementById('nav-link-nav');
     const navMenu = document.getElementById('nav-menu');
